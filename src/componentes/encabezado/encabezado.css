@@ -1,0 +1,38 @@
+.encabezado {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+}
+
+.foto {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: grid;
+    justify-self: center;
+    align-self: end;
+    align-items: center;
+    justify-items: center;
+    user-select:none;
+}
+
+.foto img {
+    height: 80px;
+}
+@media screen and (max-width: 720px){
+    .foto {
+        height: 150px;
+        width: 150px;
+    }
+    .foto img {
+        height: 120px;
+    }
+}
+.usuario{
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+    font-weight: 600;
+}
